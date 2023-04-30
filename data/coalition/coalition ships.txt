@@ -362,7 +362,7 @@ ship "Heliarch Breacher"
 	sprite "ship/heliarch breacher"
 	thumbnail "thumbnail/heliarch breacher"
 	attributes
-		category "Light Warship"
+		category "Interceptor"
 		licenses
 			Heliarch
 		"cost" 17659000
@@ -480,7 +480,7 @@ ship "Heliarch Hunter"
 	sprite "ship/heliarch hunter"
 	thumbnail "thumbnail/heliarch hunter"
 	attributes
-		category "Medium Warship"
+		category "Interceptor"
 		licenses
 			Heliarch
 		"cost" 32985000
@@ -666,7 +666,7 @@ ship "Heliarch Interdictor"
 	sprite "ship/heliarch interdictor"
 	thumbnail "thumbnail/heliarch interdictor"
 	attributes
-		category "Medium Warship"
+		category "Interceptor"
 		licenses
 			Heliarch
 		"cost" 35487000
@@ -839,7 +839,7 @@ ship "Heliarch Judicator"
 	sprite "ship/heliarch judicator"
 	thumbnail "thumbnail/heliarch judicator"
 	attributes
-		category "Medium Warship"
+		category "Interceptor"
 		licenses
 			Heliarch
 		"cost" 33953000
@@ -1023,7 +1023,7 @@ ship "Heliarch Neutralizer"
 	sprite "ship/heliarch neutralizer"
 	thumbnail "thumbnail/heliarch neutralizer"
 	attributes
-		category "Light Warship"
+		category "Interceptor"
 		licenses
 			Heliarch
 		"cost" 18847000
@@ -1144,7 +1144,7 @@ ship "Heliarch Punisher"
 	sprite "ship/heliarch punisher"
 	thumbnail "thumbnail/heliarch punisher"
 	attributes
-		category "Heavy Warship"
+		category "Interceptor"
 		licenses
 			Heliarch
 		"cost" 58487000
