@@ -327,7 +327,7 @@ mission "Coalition Yottrite 3"
 	name "Neighbor's Mailbox"
 	description "Deliver the <cargo> to the sister world of <origin>, <destination>."
 	blocked ""
-	reminder ""
+	reminder "e"
 	cargo "experimental yottrite samples" 5
 	to offer
 		has "Coalition Yottrite 2: offered"
