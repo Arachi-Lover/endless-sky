@@ -986,7 +986,7 @@ mission "Saryd Students 2"
 	deadline
 	cargo "arach rum" 2
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder "Pick up the arach rum from Weir of Glubatub, to bring it to the Saryd students in Shadow of Leaves for their university party."
+	reminder "Pick up the <tons> tons of Arach rum from Weir of Glubatub, to bring it to the Saryd students in Shadow of Leaves for their university party."
 	to offer
 		has "Saryd Students 1: done"
 	source "Weir of Glubatub"
@@ -1139,7 +1139,6 @@ event "saryd couple has money"
 mission "Saryd Couple 2"
 	name "Home Sweet Plot Of Land"
 	description "The Saryd couple Inturi and Aunaris have finally amassed enough money to buy a plot of land on <destination>, where they will begin building their very own home. Bring both of them there so that they can settle the purchase."
-	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
 	passengers 2
 	to offer
 		has "event: saryd couple has money"
