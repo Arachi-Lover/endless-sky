@@ -326,8 +326,9 @@ mission "Coalition Yottrite 3"
 	landing
 	name "Neighbor's Mailbox"
 	description "Deliver the <cargo> to the sister world of <origin>, <destination>."
-	blocked ""
-	reminder ""
+	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
+	"reminder name" "Yottrite Research"
+	reminder "The Arachi on Bloptab's Furnace are interested in purchasing more Yottrite samples from you. Land on the planet with 7 samples to help them continue their research."
 	cargo "experimental yottrite samples" 5
 	to offer
 		has "Coalition Yottrite 2: offered"
@@ -375,7 +376,7 @@ mission "Coalition Yottrite 3"
 mission "Coalition Yottrite 4"
 	name "Yottrite Research"
 	description "Lugglop, one of the Arachi that oversees the mining operations in Bloptab, asked that you pick up some friends of his on <destination> so that they may help with the yottrite research."
-	reminder ""
+	reminder "Your Arach contact for the Yottrite samples trade wants to meet you in the spaceport of Delve of Bloptab."
 	to offer
 		has "Coalition Yottrite 3: done"
 	source "Delve of Bloptab"
@@ -403,7 +404,7 @@ mission "Coalition Yottrite 5"
 	description "Transport the twins Nasilor and Alituri to <destination>, where they will assist in the yottrite research."
 	passengers 2
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder ""
+	reminder "Two of Lugglop's friends, researchers from Shadowed Valley, are waiting for you in the planet's spaceport. When you are ready, pick them up there and prepare to reunite them with Lugglop for the Yottrite research efforts."
 	to offer
 		has "Coalition Yottrite 4: done"
 	source "Shadowed Valley"
@@ -447,7 +448,7 @@ mission "Coalition Yottrite 7"
 	description "Bring Pichiie to <destination>, where she will join Lugglop's team in their yottrite research."
 	passengers 1
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder ""
+	reminder "A master shipwright from House Mallob is waiting for you on Market of Gupta. Meet them there and prepare to transport them to Lugglop, to aid him in the Yottrite research efforts."
 	landing
 	to offer
 		has "Coalition Yottrite 6: done"
@@ -533,7 +534,7 @@ mission "Coalition Yottrite 9"
 	passengers 6
 	cargo "yottrite presentation materials" 6.14
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder ""
+	reminder "Lugglop and his team are ready to report their findings on the Yottrite research they have been conducting. Meet him in the spaceport of Pelubta Station, to arrange for transporting everyone for the presentation."
 	to offer
 		has "Coalition Yottrite 8: done"
 	source "Pelubta Station"
@@ -646,7 +647,6 @@ event "chikee break"
 mission "Kimek Student 2"
 	name "Transport Chikee"
 	description "Chikee, a young Kimek, is studying to become a Heliarch. Transport him to <destination>, where he was offered an internship and hopes to be awarded with a recommendation letter."
-	reminder ""
 	deadline
 	passengers 1
 	to offer
@@ -812,7 +812,8 @@ mission "Coalition Outbreak 2"
 	deadline
 	cargo "vaccines" 80
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder ""
+	"reminder name" "Viral Outbreak in the Coalition"
+	reminder "Battalions of medical staff need all the help they can get with the recent viral outbreak in the Coalition. Head to the spaceport of Celestial Third to see what you can do to continue helping."
 	to offer
 		has "Coalition Outbreak 1: done"
 	source "Celestial Third"
@@ -850,8 +851,9 @@ mission "Coalition Outbreak 2"
 mission "Coalition Outbreak 3"
 	name "Distribute Vaccines"
 	description "Accompanied by the three volunteer ships, head to the designated Kimek worlds, delivering vaccines to deal with the current viral outbreak, then return to <destination> by <date>."
-	blocked ""
-	reminder ""
+	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
+	"reminder name" "Viral Outbreak in the Coalition"
+	reminder "The doctors on the Kimek homeworld of Ki Patek Ka have prepared another task for you to help with dealing with the recent viral outbreak. Look for their personnel in the planet's main spaceport to continue helping."
 	deadline
 	cargo "vaccines" 80
 	to offer
@@ -984,7 +986,7 @@ mission "Saryd Students 2"
 	deadline
 	cargo "arach rum" 2
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder ""
+	reminder "Pick up the arach rum from Weir of Glubatub, to bring it to the Saryd students in Shadow of Leaves for their university party."
 	to offer
 		has "Saryd Students 1: done"
 	source "Weir of Glubatub"
@@ -1051,7 +1053,7 @@ mission "Saryd Census 2"
 	description "Transport these <bunks> Saryd census workers to <destination>, where they will collect data on the population growth there."
 	passengers 17
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder ""
+	reminder "The Saryd census workers are waiting for you in the spaceport of Flowing Fields, to continue on with their work."
 	to offer
 		has "Saryd Census 1: done"
 	source "Flowing Fields"
@@ -1137,8 +1139,7 @@ event "saryd couple has money"
 mission "Saryd Couple 2"
 	name "Home Sweet Plot Of Land"
 	description "The Saryd couple Inturi and Aunaris have finally amassed enough money to buy a plot of land on <destination>, where they will begin building their very own home. Bring both of them there so that they can settle the purchase."
-	blocked ""
-	reminder ""
+	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
 	passengers 2
 	to offer
 		has "event: saryd couple has money"
@@ -1998,6 +1999,7 @@ mission "Coalition: Pilgrimage 5"
 mission "Coalition: Pilgrimage 6"
 	name "Pilgrimage's End"
 	description "Bring Vellorae back to her home on <destination>."
+	reminder "Vellorae, who just finished her pilgrimage in mourning for her husband Adfices, is waiting for you in the spaceport of Cold Horizon."
 	passengers 1
 	to offer
 		has "Coalition: Pilgrimage 5: done"
@@ -2087,6 +2089,8 @@ mission "Coalition: Council of Ahr: Ablomab"
 	landing
 	passengers 1
 	blocked "You have reached <origin>, but you need <capacity> in order to take on the next mission. Return here when you have the required space free."
+	"reminder name" "Council of Ahr: House Ablomab"
+	"reminder" "Head to Delve of Bloptab to pick up the representative of House Ablomab for the Council of Ahr."
 	to offer
 		has "Coalition: Council of Ahr: active"
 	source "Delve of Bloptab"
@@ -2123,6 +2127,8 @@ mission "Coalition: Council of Ahr: Bebliss"
 	landing
 	passengers 1
 	blocked "You have reached <origin>, but you need <capacity> in order to take on the next mission. Return here when you have the required space free."
+	"reminder name" "Council of Ahr: House Bebliss"
+	"reminder" "Head to Stronghold of Flugbu to pick up the representative of House Bebliss for the Council of Ahr."
 	to offer
 		has "Coalition: Council of Ahr: active"
 	source "Stronghold of Flugbu"
@@ -2164,6 +2170,8 @@ mission "Coalition: Council of Ahr: Chamgar"
 	landing
 	passengers 1
 	blocked "You have reached <origin>, but you need <capacity> in order to take on the next mission. Return here when you have the required space free."
+	"reminder name" "Council of Ahr: House Chamgar"
+	"reminder" "Head to Hammer of Debrugt to pick up the representative of House Chamgar for the Council of Ahr."
 	to offer
 		has "Coalition: Council of Ahr: active"
 	source "Hammer of Debrugt"
@@ -2301,7 +2309,8 @@ mission "Coalition: Submarines 2"
 	passengers 1
 	cargo "unmanned submarines" 60
 	blocked "You need <capacity> to help Apri'ie move the submarines. Return here when you have the required space free."
-	reminder ""
+	"reminder name" "Coalition Submarines"
+	reminder "Meet with Apri'ie in the spaceport of Market of Gupta, to continue helping him with the research submarines his employers have commissioned."
 	to offer
 		has "Coalition: Submarines 1: done"
 	source "Market of Gupta"
@@ -2353,7 +2362,8 @@ mission "Coalition: Submarines 3"
 	passengers 1
 	cargo "unmanned submarines" 60
 	blocked "You need <capacity> to take the next mission. Return here when you have the required space free."
-	reminder ""
+	"reminder name" "Coalition Submarines"
+	reminder "Meet with Apri'ie in the spaceport of Inmost Blue, to continue helping him with the research submarines his employers have commissioned."
 	to offer
 		has "Coalition: Submarines 2: done"
 	source "Inmost Blue"
@@ -2479,7 +2489,8 @@ mission "Coalition: Expeditions Past 2"
 	description "Bring Sedlitaris and some representatives of the Heliarch council to <destination>, where members of House Idriss will provide her with a relay pylon to search for signs of her ancestor's expedition."
 	passengers 6
 	blocked "You need <capacity> to take the next mission. Return here when you have the required space free."
-	reminder ""
+	"reminder name" "Expeditions Past"
+	reminder "Meet with Sedlitaris, a Heliarch tribune, in the spaceport of the Ring of Friendship, to help her with an expedition to outside of Coalition space."
 	to offer
 		has "Coalition: Expeditions Past 1: done"
 	source "Ring of Friendship"
@@ -3155,7 +3166,8 @@ mission "Coalition: Long Lost Property 3B"
 mission "Coalition: Long Lost Property 4"
 	name "Comparing Binaries"
 	description "Head to <waypoints> to gather data on the binary stars, so that House Idriss may compare it with their probe's own predictions."
-	reminder ""
+	"reminder name" "Meet with House Idriss"
+	reminder "Now that you have recovered the lost probe for House Idriss, meet their representatives in the spaceport of Ablub's Invention, to see how you can help with an in-person system check."
 	to offer
 		has "Coalition: Long Lost Property 3: done"
 	source "Ablub's Invention"
@@ -3386,7 +3398,8 @@ mission "Coalition: Struggling Author 1"
 	destination "Ki Patek Ka"
 	passengers 1
 	blocked "You may need space on your ship for Anna in the next mission."
-	reminder ""
+	"reminder name" "Meet Anna Fangvin"
+	reminder "Anna Fangvin, an author who lives on Zug, and who has piqued the interest of many Kimek readers in Coalition space, is waiting for you in the spaceport of Zug."
 	to offer
 		has "Coalition: Struggling Author - Book Discovered: done"
 	on offer
@@ -3515,7 +3528,6 @@ mission "Coalition: Struggling Author 1"
 mission "Coalition: Book Discovered 2"
 	name `Beyond the Hyperdrive for Kachachee`
 	description `Now that you have a copy of Anna Fangvin's Beyond the Hyperdrive, give it to Kachachee and their group on <destination>.`
-	reminder ""
 	to offer
 		has "coalition: struggling author - beyond the hyperdrive"
 	source
@@ -3550,7 +3562,7 @@ mission "Coalition: Book Discovered 2"
 mission "Coalition: Struggling Author 2"
 	name "Help Anna register with the Heliarchy"
 	description "Take Anna Fangvin to the <destination> so she can register with the Heliarchs."
-	reminder ""
+	reminder "Having just arrived in Coalition space, Anna Fangvin is waiting for you in the spaceport of Ki Patek Ka. Meet with her to help her in registering with the Heliarchy."
 	source "Ki Patek Ka"
 	destination "Ring of Friendship"
 	passengers 1
@@ -3582,7 +3594,8 @@ mission "Coalition: Struggling Author 3"
 	destination "Ki Patek Ka"
 	passengers 2
 	blocked "You do not have enough space for Anna and the Heliarch agent. Return here when you have two bunks free."
-	reminder ""
+	"reminder name" "Anna in the Ringworld"
+	reminder "Having registered with the Heliarchy, Anna Fangvin is waiting for you in the spaceport of the Ring of Friendship."
 	to offer
 		has "Coalition: Struggling Author 2: done"
 	on offer
@@ -3658,7 +3671,7 @@ mission "Coalition: Struggling Author 4"
 	source "Ki Patek Ka"
 	destination "Inmost Blue"
 	blocked "You do not have enough bunk space for Anna Fangvin and the Heliarch agent. Come back here when you have two bunks free."
-	reminder ""
+	reminder "Meet Anna Fangvin and Temporo in the spaceport of Ki Patek Ka, to see if they have found a publishing company suitable for Anna's work."
 	passengers 2
 	to offer
 		has "Coalition: Struggling Author 3: done"
@@ -3997,7 +4010,8 @@ mission "Coalition: Powerless 2"
 	description "Bring Arbiter Kyrra Ieka and her delegation to Pa'ee's village on <planet> so that they can see the situation first hand and determine the viability of a bioreactor plant."
 	passengers 7
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder ""
+	"reminder name" "Meet Pa'ee in Celestial Third"
+	reminder "Pa'ee is waiting for you in the spaceport of Celestial Third. Meet with him and find Arbiter Kyrra Ieka, who has agreed to help bring electricity to his village."
 	to offer
 		has "Coalition: Powerless 1: done"
 	source "Celestial Third"
@@ -4034,7 +4048,8 @@ mission "Coalition: Powerless 3"
 	description "Bring Arbiter Kyrra Ieka and three of her aides back to <destination>, where they will look into setting up a supply chain and plan the plant construction for Pa'ee's village."
 	passengers 4
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder ""
+	"reminder name" "Meet Arbiter Kyrra on Fourth Shadow"
+	reminder "Arbiter Kyrra Ieka and her team have begun their analysis over how to bring suitable electric power to Pa'ee's village. Meet her in the spaceport of Fourth Shadow to see what are the next steps."
 	to offer
 		has "Coalition: Powerless 2: done"
 	source "Fourth Shadow"
