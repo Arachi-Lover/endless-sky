@@ -813,7 +813,7 @@ mission "Coalition Outbreak 2"
 	cargo "vaccines" 80
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
 	"reminder name" "Viral Outbreak in the Coalition"
-	reminder "Battalions of medical staff need all the help they can get with the recent viral outbreak in the Coalition. Head to the spaceport of Celestial Third to see what you can do to continue helping."
+	reminder "Battalions of medical staff need all the help they can get with the recent viral outbreak in the Coalition. Head to the spaceport of Celestial Third to see what you can do to continue helping. Make sure you have <capacity> available."
 	to offer
 		has "Coalition Outbreak 1: done"
 	source "Celestial Third"
@@ -853,7 +853,7 @@ mission "Coalition Outbreak 3"
 	description "Accompanied by the three volunteer ships, head to the designated Kimek worlds, delivering vaccines to deal with the current viral outbreak, then return to <destination> by <date>."
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
 	"reminder name" "Viral Outbreak in the Coalition"
-	reminder "The doctors on the Kimek homeworld of Ki Patek Ka have prepared another task for you to help with dealing with the recent viral outbreak. Look for their personnel in the planet's main spaceport to continue helping."
+	reminder "The doctors on the Kimek homeworld of Ki Patek Ka have prepared another task for you to help with dealing with the recent viral outbreak. Look for their personnel in the planet's main spaceport to continue helping. Make sure you have <capacity> available."
 	deadline
 	cargo "vaccines" 80
 	to offer
@@ -1053,7 +1053,7 @@ mission "Saryd Census 2"
 	description "Transport these <bunks> Saryd census workers to <destination>, where they will collect data on the population growth there."
 	passengers 17
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder "The Saryd census workers are waiting for you in the spaceport of Flowing Fields, to continue on with their work."
+	reminder "The Saryd census workers are waiting for you in the spaceport of Flowing Fields, to continue on with their work. Make sure you have <capacity> available."
 	to offer
 		has "Saryd Census 1: done"
 	source "Flowing Fields"
@@ -2309,7 +2309,7 @@ mission "Coalition: Submarines 2"
 	cargo "unmanned submarines" 60
 	blocked "You need <capacity> to help Apri'ie move the submarines. Return here when you have the required space free."
 	"reminder name" "Coalition Submarines"
-	reminder "Meet with Apri'ie in the spaceport of Market of Gupta, to continue helping him with the research submarines his employers have commissioned."
+	reminder "Meet with Apri'ie in the spaceport of Market of Gupta, to continue helping him with the research submarines his employers have commissioned. Make sure you have <capacity> available."
 	to offer
 		has "Coalition: Submarines 1: done"
 	source "Market of Gupta"
@@ -2362,7 +2362,7 @@ mission "Coalition: Submarines 3"
 	cargo "unmanned submarines" 60
 	blocked "You need <capacity> to take the next mission. Return here when you have the required space free."
 	"reminder name" "Coalition Submarines"
-	reminder "Meet with Apri'ie in the spaceport of Inmost Blue, to continue helping him with the research submarines his employers have commissioned."
+	reminder "Meet with Apri'ie in the spaceport of Inmost Blue, to continue helping him with the research submarines his employers have commissioned. Make sure you have <capacity> available."
 	to offer
 		has "Coalition: Submarines 2: done"
 	source "Inmost Blue"
@@ -2489,7 +2489,7 @@ mission "Coalition: Expeditions Past 2"
 	passengers 6
 	blocked "You need <capacity> to take the next mission. Return here when you have the required space free."
 	"reminder name" "Expeditions Past"
-	reminder "Meet with Sedlitaris, a Heliarch tribune, in the spaceport of the Ring of Friendship, to help her with an expedition to outside of Coalition space."
+	reminder "Meet with Sedlitaris, a Heliarch tribune, in the spaceport of the Ring of Friendship, to help her with an expedition to outside of Coalition space. Make sure you have <capacity> available."
 	to offer
 		has "Coalition: Expeditions Past 1: done"
 	source "Ring of Friendship"
@@ -3561,6 +3561,7 @@ mission "Coalition: Book Discovered 2"
 mission "Coalition: Struggling Author 2"
 	name "Help Anna register with the Heliarchy"
 	description "Take Anna Fangvin to the <destination> so she can register with the Heliarchs."
+	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
 	reminder "Having just arrived in Coalition space, Anna Fangvin is waiting for you in the spaceport of Ki Patek Ka. Meet with her to help her in registering with the Heliarchy."
 	source "Ki Patek Ka"
 	destination "Ring of Friendship"
@@ -4010,7 +4011,7 @@ mission "Coalition: Powerless 2"
 	passengers 7
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
 	"reminder name" "Meet Pa'ee in Celestial Third"
-	reminder "Pa'ee is waiting for you in the spaceport of Celestial Third. Meet with him and find Arbiter Kyrra Ieka, who has agreed to help bring electricity to his village."
+	reminder "Pa'ee is waiting for you in the spaceport of Celestial Third. Meet with him and find Arbiter Kyrra Ieka, who has agreed to help bring electricity to his village. Make sure you have <capacity> available."
 	to offer
 		has "Coalition: Powerless 1: done"
 	source "Celestial Third"
@@ -4048,7 +4049,7 @@ mission "Coalition: Powerless 3"
 	passengers 4
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
 	"reminder name" "Meet Arbiter Kyrra on Fourth Shadow"
-	reminder "Arbiter Kyrra Ieka and her team have begun their analysis over how to bring suitable electric power to Pa'ee's village. Meet her in the spaceport of Fourth Shadow to see what are the next steps."
+	reminder "Arbiter Kyrra Ieka and her team have begun their analysis over how to bring suitable electric power to Pa'ee's village. Meet her in the spaceport of Fourth Shadow to see what are the next steps. Make sure you have <capacity> available."
 	to offer
 		has "Coalition: Powerless 2: done"
 	source "Fourth Shadow"
