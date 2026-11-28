@@ -534,7 +534,7 @@ mission "Coalition Yottrite 9"
 	passengers 6
 	cargo "yottrite presentation materials" 6.14
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder "Lugglop and his team are ready to report their findings on the Yottrite research they have been conducting. Meet him in the spaceport of Pelubta Station, to arrange for transporting everyone for the presentation."
+	reminder "Lugglop and his team are ready to report their findings on the Yottrite research they have been conducting. Meet him in the spaceport of Pelubta Station, to arrange for transporting everyone for the presentation. Make sure you have <capacity> available."
 	to offer
 		has "Coalition Yottrite 8: done"
 	source "Pelubta Station"
