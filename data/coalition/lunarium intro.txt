@@ -688,7 +688,8 @@ mission "House Bebliss 3-FW"
 	destination "Bourne"
 	passengers 1
 	blocked `You have reached <origin>, but you need <capacity> in order to take on the next mission. Return here when you have the required space free.`
-	reminder ""
+	"reminder name" "Find Freya"
+	reminder "Meet with Freya on Pugglemug, to see if she is willing to let the members of House Bebliss study the Pug artifacts with her."
 	on offer
 		conversation
 			`You look around for Freya, asking the local dock workers to point you in the direction of the people researching the Pug tech. They direct you to a quieter, less crowded place, where some warehouse complexes have been set up. Some are painted in the usual Syndicate colors, some are guarded by a few Navy troops, and a Free Worlds flag flies by the entrance of the one you enter. Inside, you see groups of people surrounding the various artifacts that the Pug left behind. Some of them are running complicated-looking tests, but it seems that they are mostly discussing what to do with the artifacts next. One of the graviton transmitters sits opposite to the entrance, half intact, half dismantled, with an array of scientists poking and prodding the machinery inside.`
@@ -843,7 +844,7 @@ mission "House Bebliss 5-FW"
 mission "House Bebliss 6-FW"
 	name "Escort House Bebliss"
 	description "Escort the ship with House Bebliss' representatives to <destination>, where they intend to join Freya in her studies on hyperspace links."
-	reminder ""
+	reminder "Meet with the members of House Bebliss on the spaceport of Ablub's Invention, to prepare to escort their ship through human space, to Pugglemug."
 	to offer
 		has "House Bebliss 5-FW: done"
 		not "assisting heliarchy"
@@ -1403,7 +1404,7 @@ mission "Lunarium: Propaganda 2"
 	passengers 11
 	cargo "promotional banners" 1
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder ""
+	reminder "Meet with Tummug in the spaceport of Bright Echo, to continue helping him with his publicity efforts."
 	source "Bright Echo"
 	destination "Factory of Eblumab"
 	to offer
@@ -1469,7 +1470,7 @@ mission "Lunarium: Propaganda 3"
 	passengers 5
 	cargo "flyers and skywriting material" 10
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder ""
+	reminder "Meet with Tummug in the spaceport of Factory of Eblumab, to continue helping him with his publicity efforts."
 	source "Factory of Eblumab"
 	destination "Sandy Two"
 	to offer
@@ -1533,7 +1534,7 @@ mission "Lunarium: Propaganda 4"
 	passengers 18
 	cargo "promotional posters" 12
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder ""
+	reminder "Meet with Tummug in the spaceport of Sandy Two, to continue helping him with his publicity efforts."
 	source "Sandy Two"
 	destination "Warm Slope"
 	to offer
@@ -1798,7 +1799,7 @@ mission "Lunarium: Combat Training 4"
 	description "Bring the <bunks> Lunarium members back to the Coalition, to <destination>."
 	passengers 54
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder ""
+	reminder "Meet Pyakri and the other Lunarium members, who have been honing their skills against pirate fleets in human space, on Glaze, and prepare to bring them all back to Coalition space."
 	source "Glaze"
 	destination "Factory of Eblumab"
 	to offer
@@ -1884,7 +1885,8 @@ mission "Lunarium: Quarg Interview"
 	description "Travel to <destination> with Oobat, an Arach diplomat from the Lunarium, to try and speak with the Quarg about their thoughts on the current Coalition."
 	passengers 1
 	blocked "You need <capacity> in order to take on the next mission. Return here when you have the required space free."
-	reminder ""
+	"reminder name" "Join the Lunarium"
+	reminder "The Lunarium leaders have recognized your contributions, and have prepared a special task for you. Head to Remote Blue if you are interested in joining the Lunarium."
 	source "Remote Blue"
 	destination "Lagrange"
 	to offer
